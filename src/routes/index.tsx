@@ -8,6 +8,7 @@ import {
   Calendar,
   Tag,
   BookOpen,
+  ExternalLink,
 } from "lucide-react";
 import {
   getLatestNews,
@@ -740,7 +741,7 @@ function QuickLinks() {
                 </span>
               </div>
               <div className="w-10 h-10 rounded-full bg-gray-50 flex items-center justify-center group-hover:bg-[#ffcc00] transition-all duration-500">
-                <ArrowRight className="h-5 w-5 text-gray-400 group-hover:text-white transition-transform duration-300 group-hover:translate-x-1" />
+                <ExternalLink className="h-5 w-5 text-gray-400 group-hover:text-white transition-colors duration-300" />
               </div>
             </a>
           ))}
